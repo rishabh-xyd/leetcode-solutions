@@ -5,8 +5,9 @@ public:
         for(int i=0;i<nums.size();i++){
             if(nums[i]==0) curr=0;
             else curr++;
-            res=max(res,curr); 
+            res=max(res,curr);
         }
+
         return res;
     }
 };
